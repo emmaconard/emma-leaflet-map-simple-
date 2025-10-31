@@ -27,8 +27,8 @@
 
   /* Set up the initial map center and zoom level */
   var map = L.map('map', {
-    center: [41.7396, - 72.7195], // EDIT coordinates to re-center map
-    zoom: 10,  // EDIT from 1 (zoomed out) to 18 (zoomed in)
+    center: [41.7477, - 72.6905], // EDIT coordinates to re-center map
+    zoom: 20,  // EDIT from 1 (zoomed out) to 18 (zoomed in)
     scrollWheelZoom: false
   });
 
@@ -41,11 +41,14 @@
   }).addTo(map);
 
   /* Display a point marker with pop-up text */
-  L.marker([41.77, -72.69]).addTo(map) // EDIT marker coordinates
-  .bindPopup("West Hartford Chic-fil-a"); // EDIT pop-up text message
+  L.marker([32.8750, -83.7142]).addTo(map) // EDIT marker coordinates
+  .bindPopup("Wesleyan College"); // EDIT pop-up text message
 
   L.marker([41.7474, -72.6906]).addTo(map) // EDIT marker coordinates
   .bindPopup("Trinity College"); // EDIT pop-up text message
+    
+ L.marker([41.3798, -72.1043]).addTo(map) // EDIT marker coordinates
+  .bindPopup("Conneticut College"); // EDIT pop-up text message
   </script>
 </body>
 </html>
