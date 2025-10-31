@@ -28,7 +28,7 @@
   /* Set up the initial map center and zoom level */
   var map = L.map('map', {
     center: [41.7477, - 72.6905], // EDIT coordinates to re-center map
-    zoom: 5,  // EDIT from 1 (zoomed out) to 18 (zoomed in)
+    zoom: 8,  // EDIT from 1 (zoomed out) to 18 (zoomed in)
     scrollWheelZoom: false
   });
 
@@ -41,13 +41,13 @@
   }).addTo(map);
 
   /* Display a point marker with pop-up text */
-  L.marker([32.8750, -83.7142]).addTo(map) // EDIT marker coordinates
+  L.marker([41.56, -72.66]).addTo(map) // EDIT marker coordinates
   .bindPopup("Wesleyan College"); // EDIT pop-up text message
 
   L.marker([41.7474, -72.6906]).addTo(map) // EDIT marker coordinates
   .bindPopup("Trinity College"); // EDIT pop-up text message
     
- L.marker([41.3798, -72.1043]).addTo(map) // EDIT marker coordinates
+  L.marker([41.3798, -72.1043]).addTo(map) // EDIT marker coordinates
   .bindPopup("Conneticut College"); // EDIT pop-up text message
   </script>
 </body>
